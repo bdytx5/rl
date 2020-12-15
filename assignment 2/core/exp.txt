@@ -1,0 +1,8 @@
+TRAINING STEPS 
+
+Linear
+-run
+--train() (called by run in QN) (q_learning.py)
+--- do some stuff, call train_step(),  (q_learning.py)
+---- train_step() -> occasionaly update target network with q network, save weights, and perform training step using self.update_step
+----- DQN inherits from QN, 
